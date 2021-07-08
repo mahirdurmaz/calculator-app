@@ -58,6 +58,8 @@ button:active {
 
 .calculator > button:hover {
   background-color: rgb(255, 255, 255);
+  border-bottom: 3px solid rgb(180, 165, 151);
+  color: rgb(68, 75, 90);
 }
 
 .span-two {
