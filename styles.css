@@ -1,0 +1,111 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: hsl(222, 26%, 31%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding: 5px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.calculator {
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  grid-template-columns: repeat(4, 110px);
+  grid-template-rows: repeat(5, 70px);
+  background: hsl(223, 31%, 20%);
+  border-radius: 12px;
+  width: 450px;
+  height: 350px;
+}
+
+button {
+  cursor: pointer;
+  margin: 7px;
+  border-radius: 9px;
+  font-size: 2.1rem;
+  outline: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 3px solid rgb(180, 165, 151);
+  background-color: rgb(234, 227, 220);
+  padding-top: 10px;
+  color: rgb(68, 75, 90);
+  text-align: center;
+}
+
+button:active {
+  box-shadow: inset 0px 3px 0px rgb(180, 165, 151);
+  border-bottom: 3px solid rgb(255, 255, 255);
+  margin-top: 10px;
+}
+
+.calculator > button:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.span-two {
+  grid-column: span 2;
+}
+
+.data-delete {
+  background-color: rgb(99, 112, 151);
+  color: rgb(234, 227, 220);
+  border-bottom: 3px solid rgb(68, 75, 90);
+}
+
+.reset-button {
+  background-color: rgb(99, 112, 151);
+  color: rgb(234, 227, 220);
+  border-bottom: 3px solid rgb(68, 75, 90);
+}
+
+.equals-button {
+  background-color: hsl(6, 63%, 50%);
+  border-bottom: 3px solid hsl(6, 70%, 34%);
+  color: rgb(234, 227, 220);
+}
+
+.output-display {
+  margin-left: 735px;
+  margin-bottom: 20px;
+  background: hsl(224, 36%, 15%);
+  border-radius: 12px;
+  width: 450px;
+  height: 120px;
+  align-items: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 10px;
+  padding-top: 20px;
+  padding-right: 30px;
+  word-break: break-all;
+  color: rgb(234, 227, 220);
+  font-size: 3rem;
+}
+
+p {
+  color: rgb(234, 227, 220);
+  text-align: center;
+  margin-top: 200px;
+  margin-right: 295px;
+  font-size: 1.8rem;
+}

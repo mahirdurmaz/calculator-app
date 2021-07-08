@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Calculator App</title>
+  <link href="styles.css" rel="stylesheet">
+  <script src="script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="attribution">
+    Coded by <a href="https://github.com/mahirdurmaz" target="_blank">Mahir Berke Durmaz</a>
+  </div>
+
+  <p>calculator</p>
+
+  <div output-display class="output-display" id="display"></div>
+
+  <div class="calculator">
+    <button onclick="loadContent(1)" class="data-number button">7</button>
+    <button onclick="loadContent(2)" class="data-number button">8</button>
+    <button onclick="loadContent(3)" class="data-number button">9</button>
+    <button onclick="loadContent2(1)" class="data-delete button">DEL</button>
+    <button onclick="loadContent(5)" class="data-number button">4</button>
+    <button onclick="loadContent(6)" class="data-number button">5</button>
+    <button onclick="loadContent(7)" class="data-number button">6</button>
+    <button onclick="loadContent(8)" class="data-operation button">+</button>
+    <button onclick="loadContent(9)" class="data-number button">1</button>
+    <button onclick="loadContent(10)" class="data-number button">2</button>
+    <button onclick="loadContent(11)" class="data-number button">3</button>
+    <button onclick="loadContent(12)" class="data-operation button">-</button>
+    <button onclick="loadContent(13)" class="data-number button">.</button>
+    <button onclick="loadContent(14)" class="data-number button">0</button>
+    <button onclick="loadContent(15)" class="data-number button">/</button>
+    <button onclick="loadContent(16)" class="data-number button">*</button>
+    <button onclick="loadContent2(2)" class="span-two reset-button button">RESET</button>
+    <button onclick="loadContent2(3)" class="span-two equals-button button">=</button>
+  </div>
+</body>
+
+</html>
