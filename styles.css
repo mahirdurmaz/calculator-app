@@ -50,16 +50,16 @@ button {
   text-align: center;
 }
 
-button:active {
+.cb:active {
   box-shadow: inset 0px 3px 0px rgb(180, 165, 151);
-  border-bottom: 3px solid rgb(255, 255, 255);
+  border-bottom: none;
   margin-top: 10px;
 }
 
 .calculator > button:hover {
   background-color: rgb(255, 255, 255);
-  border-bottom: 3px solid rgb(180, 165, 151);
-  color: rgb(68, 75, 90);
+  /* border-bottom: 3px solid rgb(180, 165, 151);
+  color: rgb(68, 75, 90); */
 }
 
 .span-two {
@@ -111,3 +111,15 @@ p {
   margin-right: 295px;
   font-size: 1.8rem;
 }
+
+.sb:hover {
+  border-bottom: 3px solid rgb(180, 165, 151);
+  color: rgb(68, 75, 90);
+}
+
+.sb:active {
+  box-shadow: inset 0px 3px 0px rgb(180, 165, 151);
+  border-bottom: none;
+  margin-top: 10px;
+}
+
